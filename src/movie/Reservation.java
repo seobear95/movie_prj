@@ -4,6 +4,7 @@ public class Reservation {
 
     public boolean reserve11(Movie movie, int count) {
         if (movie.reserveSeat(count)) {
+            System.out.println("🎟️ 예매 완료! – 박정은");
             System.out.println("✅ 예매 성공: " + movie.getTitle() + ", 수량: " + count);
             System.out.println("서연경");
             return true;
