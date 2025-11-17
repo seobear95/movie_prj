@@ -11,8 +11,10 @@ public class Main {
 
         System.out.println("\n👉 어벤져스 2좌석 예매 시도");
         Movie selectedMovie = movieList.getMovie(2); // 어벤져스
-        reservation.reserve(selectedMovie, 2);
+        reservation.reserve_6(selectedMovie, 2);
 
         System.out.println("\n🎫 남은 좌석 수: " + selectedMovie.getRemainingSeats());
+
+        reservation.reserve6();
     }
 }

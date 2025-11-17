@@ -12,4 +12,8 @@ public class Reservation {
             return false;
         }
     }
+
+    public void reserve6() {
+        System.out.println("예매 완료!_김예찬");
+    }
 }
