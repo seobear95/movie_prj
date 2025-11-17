@@ -5,7 +5,7 @@ public class Reservation {
     public boolean reserve_13(Movie movie, int count) {
         if (movie.reserveSeat(count)) {
             System.out.println("✅ 예매 성공: " + movie.getTitle() + ", 수량: " + count);
-            System.out.println("홍길동");
+            System.out.println("김동하");
             return true;
         } else {
             System.out.println("❌ 예매 실패: 좌석 부족");
@@ -14,6 +14,6 @@ public class Reservation {
     }
 
     public void reserve1842() {
-        System.out.println("예매 완료!_김동하");
+        System.out.println("예매 완료!_이민정");
     }
 }
