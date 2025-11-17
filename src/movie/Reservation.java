@@ -2,7 +2,7 @@ package movie;
 
 public class Reservation {
 
-    public boolean reserve_17(Movie movie, int count) {
+    public boolean reserve_13(Movie movie, int count) {
         if (movie.reserveSeat(count)) {
             System.out.println("✅ 예매 성공: " + movie.getTitle() + ", 수량: " + count);
             System.out.println("홍길동");
