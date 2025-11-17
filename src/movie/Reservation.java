@@ -12,6 +12,11 @@ public class Reservation {
             return false;
         }
     }
+    public class Reservation {
+        public void reserve11() {
+            System.out.println("🎟️ 예매 완료!-박현준");
+        }
+    }
 
     public void reserve1842() {
         System.out.println("예매 완료!_이성우");
