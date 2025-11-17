@@ -13,6 +13,6 @@ public class Reservation {
     }
 
     public void reserve번호() {
-        System.out.println("🎟️ 예매 완료! - 정의찬");
+        System.out.println("🎟️ 예매 완료! - 정의찬.");
     }
 }
